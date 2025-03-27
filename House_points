@@ -1,0 +1,9 @@
+x=int(input("num1 : "))
+y=int(input("num2 : "))
+z=int(input("num3 : "))
+if(x>y and x>z):
+ print("Herry got most points")
+if (y>z and y>x):
+  print("Ron got most points")
+else:
+  print("Hermione got most points")
